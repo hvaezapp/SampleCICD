@@ -42,4 +42,4 @@ jobs:
           LIARA_TOKEN: ${{ secrets.LIARA_API_TOKEN }}
         run: |
           npm i -g @liara/cli@7
-          liara deploy --app="hwpro" --api-token="$LIARA_TOKEN" --no-app-logs --port=3005
+          liara deploy --app="hwpro" --api-token="$LIARA_TOKEN" --no-app-logs
