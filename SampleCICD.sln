@@ -5,13 +5,6 @@ VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleCICD", "SampleCICD\SampleCICD.csproj", "{65FB0E9C-804E-4ABB-8A1B-9F08244EF9CE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{CE998EA2-F5C1-406B-9C1A-4B43253B66B7}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{81765E5D-BD8E-49CE-86E1-11B65643BC0A}"
-	ProjectSection(SolutionItems) = preProject
-		liara.yaml = liara.yaml
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,9 +18,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{81765E5D-BD8E-49CE-86E1-11B65643BC0A} = {CE998EA2-F5C1-406B-9C1A-4B43253B66B7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {29E4D7CD-A176-4630-B797-235978794C10}
